@@ -151,6 +151,7 @@ vocallabs-windows/
 ├── vite.config.js           # React build configuration
 └── README.md                # This file
 ```
+
 ---
 
 ## Tech Stack
