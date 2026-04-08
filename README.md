@@ -79,20 +79,24 @@ sox --version
 
 ### Step 4 — Configure API Keys
 
-Create a `.env` file in the project root based on the provided `.env.example`:
+Create a `.env` file in the project root:
 
 ```bash
 cp .env.example .env
 ```
 
-Then open `.env` and add your API keys:
+Then open `.env` and fill in your API keys:
 
+```env
 DEEPGRAM_API_KEY=your_deepgram_api_key_here
 GROQ_API_KEY=your_groq_api_key_here
+```
 
-Get your keys here:
-- Deepgram: https://console.deepgram.com/signup (free tier available)
-- Groq: https://console.groq.com (free)
+Get your free API keys here:
+- 🎤 **Deepgram** (required): https://console.deepgram.com/signup
+- 🤖 **Groq** (optional): https://console.groq.com
+
+> ⚠️ **Important:** Never commit your `.env` file to GitHub. It is already listed in `.gitignore` to protect your keys.
 
 
 ### Step 5 — Run the app
