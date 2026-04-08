@@ -193,7 +193,3 @@ Pull requests are welcome. For significant changes, open an issue first.
 4. Open a pull request
 
 ---
-
-## License
-
-MIT
