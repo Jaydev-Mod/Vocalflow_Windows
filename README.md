@@ -51,7 +51,7 @@ Audio is streamed in real-time to **Deepgram** for transcription. Optionally, th
 ### Step 1 — Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/vocallabs-windows.git
+git clone https://github.com/Jaydev-Mod/Vocalflow_Windows.git
 cd vocallabs-windows
 ```
 
@@ -125,9 +125,9 @@ NODE_ENV=development npm run electron
 10. Your speech appears as text at your cursor!
 
 ---
-
 ## Project Structure
 
+```
 vocallabs-windows/
 ├── electron/
 │   ├── main.js              # App entry point, tray icon, hotkey
@@ -146,10 +146,11 @@ vocallabs-windows/
 │       └── SettingsView.jsx # Full settings UI
 ├── resources/
 │   └── icon.png             # System tray icon
-├── package.json
-├── vite.config.js
-└── README.md
-
+├── .env.example             # Environment variables template
+├── package.json             # Project dependencies
+├── vite.config.js           # React build configuration
+└── README.md                # This file
+```
 ---
 
 ## Tech Stack
